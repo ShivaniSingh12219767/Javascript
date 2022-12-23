@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis velit odit quaerat qui? Magni consectetur, sapiente corrupti recusandae vero quis dicta placeat similique est obcaecati totam sit sequi adipisci iste sint, debitis fugit maiores voluptas reprehenderit alias odit eaque esse!</p>
+        <input id="btn" type="button" value="Submit"></div>
+    <script>
+        let paragraph=document.getElementById("para");
+        let button=document.getElementById("btn");
+        button.onclick = function countNumbers(){
+            for (let i = 0; i<=10; i++){
+                console.log(i);
+            }
+        }
+        paragraph.addEventListener('mouseover', function test(){
+            console.log("Mouse is over the paragraph");
+        })
+        paragraph.addEventListener('mouseout', function test(){
+            console.log("Mouse is out of the paragraph");
+        })
+    </script>
+</body>
+</html>
