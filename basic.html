@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Introduction to JavaScript</h1><!-- var keyword==let keyword-->
+    <script>
+        console.log("Hello World!") //print statement
+        // variables
+        // let keyword will not let you redeclare variables ([let] for variables and [const] for constants).
+        var a=5;
+        var b=10.5;
+        var c="Hello"
+        console.log(a);
+        console.log(b);
+        console.log(c);
+        // operators
+        //1.unary operator
+        var d=40;
+        d=-d;
+        console.log(d);
+        //2.binary operator
+        console.log("a+b is:",a+b);
+        //console.log("a+b is "+(a+b)); (SAME)
+        console.log("a-b is:",a-b);
+        console.log("a*b is:",a*b);
+        console.log("a/b is:",a/b);
+        console.log("a%b is:",a%b);
+        console.log("a**b is:",a**b);
+
+        // STRINGS
+        var greet="Hel'lo";
+        var Name='Shiv"ani';
+        var id="12219767";
+        var a=`${greet} there how are you? ${id} is your id.`;
+        console.log(a);
+        console.log(greet);
+        console.log(Name);
+        console.log(greet+Name);
+        console.log(greet+"   "+Name);
+        var str="Thisss is a string";
+        var a=str.indexOf("is"); // this will give first occurence of "is".
+        console.log(a);
+        var l=str.length;
+        console.log(l);
+        console.log(str.concat(Name));
+        //console.log(str.slice[1,5]); undefined output(data type is not defined)
+        console.log(str.slice(1,4));
+        console.log(str.substring(1,4));
+        console.log(str.toUpperCase());
+        console.log(str.toLowerCase());
+    </script>
+    
+</body>
+</html>
